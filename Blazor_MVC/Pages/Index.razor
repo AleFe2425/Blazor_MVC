@@ -1,0 +1,49 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<div class="welcome-section">
+    <div class="header">
+        <h1>Bienvenido a la Aplicación MVC de Blazor</h1>
+    </div>
+    <div class="content">
+        <p class="intro">
+            Esta aplicación es el resultado del trabajo realizado como parte del ejercicio práctico del semestre pasado en la asignatura de Desarrollo de Aplicaciones Web con el patrón MVC. A lo largo del proyecto, se implementaron funcionalidades clave que demuestran el uso efectivo de tecnologías modernas como Blazor y Firestore.
+        </p>
+        <p class="details">
+            El sistema permite la gestión de alumnos, calificaciones y el progreso académico de una manera sencilla e intuitiva. El diseño de esta aplicación está enfocado en ofrecer una experiencia de usuario eficiente, manteniendo una estructura clara y amigable.
+        </p>
+        <SurveyPrompt Title="¿Cómo ha sido tu experiencia usando Blazor hasta ahora?" />
+    </div>
+</div>
+
+<style>
+    .welcome-section {
+        padding: 40px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .header h1 {
+        color: #1b6ec2;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .content p {
+        font-size: 1.2rem;
+        color: #333;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .intro {
+        font-weight: bold;
+    }
+
+    .details {
+        margin-top: 10px;
+    }
+</style>
